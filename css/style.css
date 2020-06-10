@@ -1,0 +1,535 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: auto;
+    padding-top: 46px;
+    font-family: sans-serif;
+    background: #f5f5f5;
+}
+
+.first-screen {
+    position: absolute;
+    width: 1600px;
+    height: 900px;
+    left: 0px;
+    top: -7px;
+    background: #dbdbdb;
+    margin: auto;
+    display: flex;
+}
+
+.first-screen-button {
+    position: inherit;
+    width: 225px;
+    height: 65px;
+    left: 975px;
+    right: 720px;
+    margin-top: 489px;
+    margin-bottom: 146px;
+    background: #34547A;
+}
+
+.first-screen-button-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.first-screen-menu {
+    position: relative;
+    left: 750px;
+    top: 72px;
+    display: flex;
+}
+
+#menu,
+#menu li {
+    margin: 0;
+    /* убрать внутренние отступы */
+    padding: 0;
+    /* убрать внешние отступы */
+}
+
+#menu {
+    background: transparent;
+    /* цвет фона навигационной панели */
+}
+
+#menu li {
+    display: inline-block;
+    /* расположить пункты горизонтально */
+    text-align: center;
+    /* текст горизонтально по центру */
+}
+
+#menu a {
+    display: flex;
+    /* ссылка растягивается на весь пункт li */
+    padding: 0px 30px;
+    /* задаем внутренние отступы */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+#menu a:hover {
+    border-bottom-width: 3px;
+    /* Толщина линии внизу */
+    border-bottom-style: solid;
+    /* Стиль линии внизу */
+    border-bottom-color: #73aae9;
+    color: #2b5283;
+}
+
+.logo {
+    position: inherit;
+    font-family: "Revalia";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A;
+    width: 96px;
+    height: 60px;
+    left: 402px;
+    top: 57px;
+
+}
+
+.portfolio-title {
+    position: absolute;
+    width: 541px;
+    height: 45px;
+    left: 974px;
+    top: 140px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.logo-img {
+    position: absolute;
+    left: 5.62%;
+    right: 4.39%;
+    top: 25%;
+    bottom: 3.55%;
+}
+
+.first-screen-text {
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #727272;
+    left: 975px;
+    bottom: 271px;
+    top: 300px;
+    width: 580px;
+    margin-left: auto;
+    position: inherit;
+}
+
+.portfolio-title-about-me {
+    position: relative;
+    margin-left: 759px;
+    width: 403px;
+    height: 30px;
+    margin-top: 910px;
+}
+
+.about-me-text {
+    width: 550px;
+    height: 70px;
+    align-items: center;
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 90px;
+    margin-left: 525px;
+}
+
+.numbers {
+    align-items: center;
+    background: #34547A;
+    height: 250px;
+    width: 1600px;
+    display: flex;
+}
+
+.numbers-menu {
+    display: flex;
+    /* ссылка растягивается на весь пункт li */
+    padding: 0px 30px;
+    /* задаем внутренние отступы */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    /* убрать нижнее подчёркивание у ссылок */
+    color: #000000;
+}
+
+.icon-img {
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.numbers-text {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.skills {
+    height: 653px;
+    width: 1600;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.skills-content {
+    display: flex;
+    width: 1150px;
+    height: 610px;
+    margin-left: 225px;
+    justify-content: space-between;
+}
+
+.skills-content-title {
+    text-align: inherit;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+    margin-left: 0px;
+    margin-top: 102px;
+    width: 400;
+}
+
+.skills-content-img {
+    position: inherit;
+    width: 505px;
+    height: 400px;
+    margin-top: 102px;
+    display: flex;
+}
+
+.photoshop-skill {
+    position: absolute;
+    display: flex;
+    margin-top: 220px;
+    margin-left: 1px;
+    border: 1px lightslategray;
+}
+
+.skill-text {
+    position: absolute;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 128px;
+    height: 15px;
+    margin-top: 180px;
+    margin-left: 1px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 900px;
+    background-color: #fff;
+}
+
+.video-title {
+    margin-top: 70px;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.video-text {
+    margin-top: 150px;
+    position: absolute;
+    width: 600px;
+    align-items: center;
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.video-player {
+    margin-top: 300px;
+    display: flex;
+    width: 640px;
+    height: 480px;
+    background-color: #34547A;
+}
+
+.projects {
+    display: flex;
+    justify-content: flex-start;
+    height: 900px;
+    width: 1600px;
+    background: #E5E5E5;
+}
+.projects-img{
+    display: inline; 
+    padding: 0;
+    margin-top: 28px; 
+    padding-left: 210px;
+}
+
+.projects-img img {  
+    width: 390px;
+    height: 390px; 
+    -webkit-transition-duration: 0.5s;
+    /*Webkit: длительность анимации*/
+    -moz-transition-duration: 0.5s;
+    /*Mozilla: длительность анимации*/
+    -o-transition-duration: 0.5s;
+    /*Opera: длительность анимации*/
+    opacity: 0.7;
+    /*Начальная прозрачность изображений*/
+    margin: 0px;
+    /*Интервалы между изображениями*/
+}
+
+.projects-img img:hover {
+    -webkit-transform: scale(1.1);
+    /*Webkit: увеличиваем размер до 1.1x*/
+    -moz-transform: scale(1.1);
+    /*Mozilla: масштабирование*/
+    -o-transform: scale(1.1);
+    /*Opera: масштабирование*/
+    box-shadow: 0px 0px 20px gray;
+    /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
+    -webkit-box-shadow: 0px 0px 20px gray;
+    /*Webkit: тени*/
+    -moz-box-shadow: 0px 0px 20px gray;
+    /*Mozilla: тени*/
+    opacity: 1;
+}
+
+.clients{
+    align-items: center;
+    display: flex;
+    width: 1600px;
+    height: 290px;
+    background-color: #E5E5E5;
+}
+.clients-logo{
+   margin: 0 auto;
+   background-color: #E5E5E5;
+   display: inline;
+   justify-content: space-between;
+}
+.clients-logo img{
+    margin: 0px 30px;
+}
+.form{
+    position: absolute;
+    align-items: center;
+    height: 930px;
+    width: 1600px;
+    background: #EEEFF1;
+}
+.form-title {
+    margin: 0 auto; 
+    width: 406px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 70px; 
+}
+.form-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 540px;
+    height: 67px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px; 
+}
+.form-input{
+    display: flex;
+    align-items: center;
+}
+.name-input {
+    margin-left: 520px;
+    margin-bottom: 350px;
+    font-size: 14px;
+    height: 50px;
+    width: 255px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #5F5D5D;
+
+}
+.mail-input {
+    margin-bottom: 350px;
+    height: 50px;
+    width: 255px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    margin-left: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #5F5D5D;
+}
+.message-input{
+    position: absolute;
+    margin-left: 520px;
+    font-size: 14px;
+    width: 560px;
+    height: 170px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #5F5D5D;
+    text-align: start; 
+}
+
+.last-screen-button{
+    position: absolute;
+    width: 225px;
+    height: 65px;
+    margin-top: 390px;
+    margin-left: 688px;
+    background: #34547A;
+}
+.last-screen-button-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.footer{
+    margin-top: 100px;
+    display: flex;
+    width: 1600px;
+    height: 151px;
+    background: #34547A;
+}
+.footer-title{
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 300px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+
+color: #FFFFFF;
+}
+.footer-text {
+    position: absolute;
+    padding-top: 65px;
+    padding-left: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer-icon{
+    margin-left: 1105px;
+    padding-top: 40px;
+    display: flex;
+}
+.footer-icon img{
+    height: 55px;
+    width: 55px;
+    padding: 8px;
+}
+.footer-icon img:hover {
+    filter: invert(100%);
+  }
+
+@font-face {
+    font-family: "Revalia";
+    src: url("/fonts/Revalia-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media(max-width:1250px){
+    .projects-img img{
+        overflow: hidden;
+        justify-content: start;
+    }
+}
